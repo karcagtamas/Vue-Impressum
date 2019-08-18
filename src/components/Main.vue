@@ -1,20 +1,23 @@
 <template>
-  <div>
-    <div id="denethor"></div>
-    <v-card class="mx-auto" :raised="true">
-      <v-img src="../assets/raven.jpg" class="white--text" height="200px" width="300px" id="img">
-        <v-card-title class="align-end fill-height">Karcag Tamás</v-card-title>
-      </v-img>
-      <v-card-text>I'm card text</v-card-text>
-    </v-card>
-  </div>
-</template>
+  <v-container fluid>
+    <div>
+      <div id="denethor"></div>
+      <Personal></Personal>
+      <Education></Education>
+      <WorkPlaces></WorkPlaces>
+      <Competitions></Competitions>
+    </div>
+  </v-container>
 </template>
 <script lang="ts">
 import Vue from 'vue';
 import { Component } from 'vue-property-decorator';
+import Personal from './Personal.vue';
+import WorkPlaces from './WorkPlaces.vue';
+import Education from './Education.vue';
+import Competitions from './Competitions.vue';
 
-@Component({})
+@Component({ components: { Personal, WorkPlaces, Education, Competitions } })
 export default class Main extends Vue {}
 </script>
 
@@ -23,7 +26,11 @@ export default class Main extends Vue {}
   margin: 1rem;
 }
 #denethor {
-  height: 100px;
+  height: 40px;
   clear: both;
+}
+h1 {
+  text-align: center;
+  color: black;
 }
 </style>
