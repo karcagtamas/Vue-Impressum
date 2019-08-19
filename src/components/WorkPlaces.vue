@@ -30,6 +30,10 @@
                 Programozás és informatika oktatása 8-14 éves gyerekek számára.
                 <br />Weboldal:
                 <a href="http://logiscool.com" target="_blank">Logiscool</a>
+                <br />
+                <v-img src="../assets/logiscool.jpg" class="white--text" height="auto" width="100%">
+                  <v-card-title class="align-end fill-height">Karcag Tamás</v-card-title>
+                </v-img>
               </v-card-text>
             </v-col>
           </v-card>
@@ -41,7 +45,13 @@
               <h2 class="display-1 white--text font-weight-light">AUDI Hungária</h2>
             </v-card-title>
             <v-col>
-              <v-card-text>Nyári gyakorlat - Diákmunka - Informatikai feladatok ellátása</v-card-text>
+              <v-card-text>
+                Nyári gyakorlat - Diákmunka - Informatikai feladatok ellátása
+                <br />
+                <v-img src="../assets/audi.jpg" class="white--text" height="auto" width="100%">
+                  <v-card-title class="align-end fill-height">Karcag Tamás</v-card-title>
+                </v-img>
+              </v-card-text>
             </v-col>
           </v-card>
         </v-timeline-item>
