@@ -135,6 +135,62 @@
             </v-col>
           </v-card>
         </v-timeline-item>
+        <v-timeline-item color="purple darken-2">
+          <v-card class="elevation-2">
+            <v-card-title class="headline purple darken-2">
+              <h2 class="display-1 white--text font-weight-light">Programozási nyelveim</h2>
+            </v-card-title>
+            <v-col>
+              <v-card-text>
+                <v-list rounded dense flat>
+                  <v-subheader>Publikus munkáim</v-subheader>
+                  <v-list-item-group color="primary">
+                    <v-list-item>
+                      <v-list-item-content>
+                        <v-list-item-title>
+                          <a
+                            href="https://github.com/karcagtamas"
+                            target="_blank"
+                          >Github - elérhető munkáim</a>
+                        </v-list-item-title>
+                      </v-list-item-content>
+                    </v-list-item>
+                    <v-list-item>
+                      <v-list-item-content>
+                        <v-list-item-title>
+                          <a
+                            href="https://csomormaker.karcags.hu"
+                            target="_blank"
+                          >Csömörmaker - Angular/PHP/MySql projekt - Események szervezése, kezelése</a>
+                        </v-list-item-title>
+                      </v-list-item-content>
+                    </v-list-item>
+                    <v-list-item>
+                      <v-list-item-content>
+                        <v-list-item-title>
+                          <a
+                            href="https://minesweeper.karcags.hu"
+                            target="_blank"
+                          >Aknakereső - Angular - játék</a>
+                        </v-list-item-title>
+                      </v-list-item-content>
+                    </v-list-item>
+                    <v-list-item>
+                      <v-list-item-content>
+                        <v-list-item-title>
+                          <a
+                            href="https://reversi.karcags.hu"
+                            target="_blank"
+                          >Reversi - Angular - játék</a>
+                        </v-list-item-title>
+                      </v-list-item-content>
+                    </v-list-item>
+                  </v-list-item-group>
+                </v-list>
+              </v-card-text>
+            </v-col>
+          </v-card>
+        </v-timeline-item>
       </v-timeline>
     </v-row>
   </v-col>

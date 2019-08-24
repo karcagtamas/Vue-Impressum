@@ -2,7 +2,7 @@
   <v-col cols="12">
     <v-row align="center" justify="center">
       <v-card class="mx-auto" :raised="true" cols="sm">
-        <v-img src="../assets/raven.jpg" class="white--text" height="auto" width="500px" id="img">
+        <v-img src="../assets/me.jpg" class="white--text" height="auto" width="500px" id="img">
           <v-card-title class="align-end fill-height">Karcag Tamás</v-card-title>
         </v-img>
         <v-card-text>
