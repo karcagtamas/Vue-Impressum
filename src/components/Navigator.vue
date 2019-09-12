@@ -12,7 +12,7 @@
           <v-list-item href="http://csomormaker.karcags.hu" target="_blank">
             <v-list-item-title>Csömörmaker</v-list-item-title>
           </v-list-item>
-          <v-list-item href="http://minsweeper.karcags.hu" target="_blank">
+          <v-list-item href="http://minesweeper.karcags.hu" target="_blank">
             <v-list-item-title>Aknakereső</v-list-item-title>
           </v-list-item>
           <v-list-item href="http://reversi.karcags.hu" target="_blank">
